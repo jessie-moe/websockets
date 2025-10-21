@@ -1,5 +1,6 @@
 import time
-
+# This script counts "One" and "Two" three times sequentially with a 1-second delay between prints.
+# this will be used to demonstrate synchronous execution. 
 def count():
     print("One")
     time.sleep(1)
